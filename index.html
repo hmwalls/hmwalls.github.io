@@ -8,28 +8,36 @@
 }
 
 #nav_container { 
-	background-color: #E48025;
+
 	left:0; 
 	position:fixed; 
 	top:300px; 
+	list-style-type: none;
+	padding: 0px;
 }
 
 .nav { 
+	
 	line-height:60px; 
 	margin:0 auto; 
-	width:100%; 
 	text-align:center; 
 	font-family: helvetica;
 	font-size: 26px;
 	font-weight: bold;
-	text-align: center;
-	padding-right: 30px;
+	text-align: left;
 }
 
+.nav span{
+	background-color: #E48025;
+	padding: 10px;
+	padding-left: 40px;
+	color: white;
+}
 body
 {
 background-image:url('bg_geometric.png');
 background-repeat:repeat;
+margin: 0px;
 }
 
 </style>
@@ -39,11 +47,12 @@ background-repeat:repeat;
 <div id="logo_corner">
 <img src="oriole_geometric.png" width="300" height="194">
 </div>
-<div id="nav_container">
-	<div class="nav">ABOUT</div>
-	<div class="nav">PORTFOLIO</div>
-
-</div>
+<ul id="nav_container">
+	<li class="nav"><span>ABOUT</span></li>
+	<li class="nav"><span>SERVICES</span></li>
+	<li class="nav"><span>PORTFOLIO</span></li>
+	<li class="nav"><span>PRICING</span></li>
+</ul>
 
 </body>
 </html>
