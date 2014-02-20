@@ -1,8 +1,14 @@
 
 <!-- saved from url=(0027)http://www.haileywalls.com/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Oswald:400,700);
+
 #logo_corner {
-     position:absolute;
+     position:fixed;
      top:30px;
      left:30px;
 }
@@ -17,13 +23,11 @@
 }
 
 .nav { 
-	
-	line-height:60px; 
+	line-height:80px; 
 	margin:0 auto; 
 	text-align:center; 
-	font-family: helvetica;
-	font-size: 26px;
-	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
 	text-align: left;
 }
 
@@ -33,26 +37,113 @@
 	padding-left: 40px;
 	color: white;
 }
+
+.content {
+	left:360px; 
+	top:30px;
+	position:absolute; 
+	margin:10px;
+	margin-right: 0px;
+	font-family: 'Droid Serif', serif;
+	font-size: 24px;
+	padding-right: 30px;
+	height: 1000px;
+}
+
+.content span{
+	background-color: white;
+}
+
+#about {
+	font-size: 48px;
+	font-family: 'Oswald', sans-serif;
+	background-color: white;
+}
+
+#services {
+	font-size: 48px;
+	font-family: 'Oswald', sans-serif;
+	background-color: white;
+}
+
+.content ul{
+	font-family: 'Droid Serif', serif;
+	font-size: 24px;
+	background-color: white;
+}
+
+.content li{
+	float: left;
+	width: 50%;
+	background-color: white;
+}
+
+
 body
 {
-background-image:url('bg_geometric.png');
-background-repeat:repeat;
-margin: 0px;
+	background-image:url('bg_geometric.png');
+	background-repeat:repeat;
+	margin: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: inherit; 
+     text-decoration:none; 
+     cursor:pointer;  
 }
 
 </style>
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="jquery.stellar.min.js"></script>
+
+<script type="text/javascript" src="scroller.js"></script>
+
+<script type="text/javascript" src="smoothscroll.js"></script>
+
 </head>
-<body>
+<body data-stellar-background-ratio="0.5">
 <div id="logo_corner">
 <img src="oriole_geometric.png" width="300" height="194">
 </div>
 <ul id="nav_container">
-	<li class="nav"><span>ABOUT</span></li>
-	<li class="nav"><span>SERVICES</span></li>
+	<li class="nav"><span><a href="#about" class="smoothScroll">ABOUT</a></span></li>
+	<li class="nav"><span><a href="#services"  class="smoothScroll">SERVICES</a></span></li>
 	<li class="nav"><span>PORTFOLIO</span></li>
 	<li class="nav"><span>PRICING</span></li>
 </ul>
+<div class="content">
+<span id="about"><b>My name is Hailey...</b> Have we met?</span></br></br>
+<span>I am a Portland Oregon based designer, developer, sometimes-zookeeper, amateur ballerina, and cheese enthusiast. 10 years ago, I made a webpage for my Neopet and I have been working on making less embarassing websites ever since. I would love to talk to you about your print, web, and programming needs, your favorite red wine, or that cool bird you saw last weekend. </span></br></br></br>
 
+<span id="services">What can I do for you? <b>Great question!</b></span></br></br>
+<span>I've collected quite a few skills over the years and I am always learning new things. Don't see what you need? Please ask! If I don't know how to do it, I probably know someone great who does.</span></br>
+
+<ul>
+<li>Website Design and Maintainance</li>
+<li>Email Marketing Campaigns</li>
+<li>Event Websites and Registration</li>
+<li>Document Layout and Editing</li>
+<li>Brochures and Fliers</li>
+<li>Business Cards and Letterhead</li>
+<li>HTML/CSS and jQuery</li>
+<li>Wordpress</li>
+<li>inDesign and Publisher</li>
+<li>Photoshop and Illustrator</li>
+<li>Python, PHP, and MySQL</li>
+<li>Butterfly Pinning</li>
+<li>Bird Identification</li>
+<li>...And more!</li>
+</ul>
+
+
+</div>
 </body>
 </html>
