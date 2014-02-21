@@ -99,7 +99,8 @@
 
 .portfolio_wrapper li{
 	float: none;
-	width: 0;
+	width: 90%;
+
 }
 
 .uparrow{
