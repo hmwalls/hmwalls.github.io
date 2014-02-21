@@ -61,9 +61,22 @@
 }
 
 .portfolio_wrapper {
-	position:static; 
+	position:absolute; 
 	margin: 10px auto;
 	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+#pricing {
+	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+	background-color: white;
+}
+
+#contact {
+	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+	background-color: white;
 }
 
 .content ul{
