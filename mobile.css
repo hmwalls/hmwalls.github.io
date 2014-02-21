@@ -96,6 +96,7 @@ body
 	background-repeat:no-repeat;
 	margin: 0px;
 	background-position: fixed;
+	max-width: 480px;
 }
 
 a {
