@@ -6,6 +6,16 @@
  * Date: 10-Sep-2012
  * Version: 1.0.1
  */
+ function detectmob() {
+   if(window.innerWidth <= 481) {
+     return true;
+   } else {
+     return false;
+   }
+}
+
+if(!detectmob()){
+
 if (!window['jQuery']) alert('The jQuery library must be included before the smoothscroll.js file.  The plugin will not work propery.');
 
 /**
@@ -31,3 +41,5 @@ a=b.extend({},c.defaults,a);return a.lazy?this.bind(a.event,function(d){var c=b(
 
 // Initialize all .smoothScroll links
 jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
+
+}
