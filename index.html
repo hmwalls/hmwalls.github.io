@@ -7,35 +7,41 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300|Oswald:400,700);
 
+#logo_container{
+	
+	position:fixed;
+    top:3%;
+    left:3%;
+}
+
 #logo_corner {
-     position:fixed;
-     top:3%;
-     left:3%;
-     max-width: 300;
+
+     max-width: 30%;
 }
 
 #nav_container { 
 
 	left:0; 
 	position:fixed; 
-	top:40%; 
+	top:30%; 
 	list-style-type: none;
 	padding: 0px;
+
 }
 
 .nav { 
-	line-height:80px; 
+	line-height:60px; 
 	margin:0 auto; 
 	text-align:center; 
 	font-family: 'Oswald', sans-serif;
-	font-size: 36px;
+	font-size: 28px;
 	text-align: left;
 }
 
 .nav span{
 	background-color: #E48025;
-	padding: 10px;
-	padding-left: 40px;
+	padding: 5px;
+	padding-left: 40%;
 	color: white;
 }
 
@@ -132,8 +138,10 @@ a:hover
 
 </head>
 <body data-stellar-background-ratio="0.25">
+<div id="logo_container">
+	<img id="logo_corner" src="oriole_geometric.png">
+</div>
 
-<img id="logo_corner" src="oriole_geometric.png">
 
 <ul id="nav_container">
 	<li class="nav"><span><a href="#about" class="smoothScroll">ABOUT</a></span></li>
