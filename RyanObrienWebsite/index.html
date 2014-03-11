@@ -30,7 +30,12 @@ body { background: #000000 !important;}
 #footer{
 	margin: 15px;
 }
-
+a.anchor{
+	display: block; 
+	position: relative; 
+	top: -90px; 
+	visibility: hidden;
+}
 
 </style>
 
@@ -86,19 +91,32 @@ body { background: #000000 !important;}
 				<img src="images/gallery4.jpg" class="img-responsive">
 			</div>	
 			<div id="galleryimg" class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-body text-center">
+						<a id="about" class="anchor"></a>
+						<img src="images/aboutphoto.JPG" class="img-circle">
+						<h1>about</h1>
+   						<p class="lead">Ryan Obrien is a Portland based photographer available for portrait, event, and product photography.</p>
+ 					</div>
+				</div>
+			</div>
+			<div id="galleryimg" class="col-md-4">
 				<img src="images/gallery5.jpg" class="img-responsive">
 			</div>	
-			<div id="galleryimg" class="col-md-4">
-				<div class="panel panel-default">
-					<div id="about" class="panel-body text-center">
-						<img src="images/aboutphoto.JPG" class="img-circle">
-   						<p class="lead">Ryan Obrien is a Portland based photographer available for portrait, event, and product photography.</p>
- 					 </div>
-				</div>
-				<img src="images/gallery11.JPG" class="img-responsive"> 
-			</div>
 		</div>	
-	</div>		
+	</div>	
+
+	<div class="row">
+		<div class="container-fluid">
+			<div id="galleryimg" class="col-md-6">
+				<img src="images/gallery12.jpg" class="img-responsive">
+			</div>	
+			<div id="galleryimg" class="col-md-6">
+				<img src="images/gallery11.jpg" class="img-responsive">
+			</div>	
+		</div>	
+	</div>
+
 	<div class="row">
 		<div class="container-fluid">	
 			<div id="galleryimg" class="col-md-4">
@@ -119,14 +137,14 @@ body { background: #000000 !important;}
 			</div>		
 			<div id="galleryimg" class="col-md-4">
 				<div class="panel panel-default">
-					<div id="contact" class="panel-body text-center">
+					<div class="panel-body text-center">
+						<a id="contact" class="anchor"></a>
 						<h1><span class="glyphicon glyphicon-envelope"></span></h1>
    						<h1>contact</h1>
    						<p class="lead"><a href="mailto:ryan@ryanobrienphotography.com">ryan@ryanobrienphotography.com</a></p>
    						<p class="lead">(313) 729-8730</p> 
  					 </div>
 				</div>
-				<img src="images/gallery12.jpg" class="img-responsive"> 
 			</div>
 			<div id="galleryimg" class="col-md-4">
 				<img src="images/gallery14.jpg" class="img-responsive">
